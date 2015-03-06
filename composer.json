@@ -1,0 +1,22 @@
+{
+    "name": "phenaproxima/domain-constraint",
+    "description": "A constraint for Symfony's Validator which tests if a value is a valid domain name.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "phenaproxima",
+            "email": "djphenaproxima@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/validator": "~2.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "phenaproxima\\DomainConstraint\\": "src"
+        }
+    }
+}
